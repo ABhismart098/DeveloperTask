@@ -38,4 +38,20 @@
   .side-parallax img {
     width: 100%;
   }
-  
+  /* ParallaxImageSlider.css */
+
+.side-parallax {
+  position: relative;
+  height: 100vh; /* Adjust the height based on your design */
+  background-size: cover;
+  background-position: center;
+}
+
+.side-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Adjust text alignment as needed */
+  color: #fff; /* Set text color */
+}
